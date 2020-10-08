@@ -67,19 +67,19 @@ public class GUI extends BorderPane {
     private CheckBox radiusCheckBox = new CheckBox("Plot radius");
     private CheckBox plotSolutionCheckBox = new CheckBox("Plot solution");
     private CheckBox globalSharingFactorCheckBox = new CheckBox("Global Sharing Factor");
-    private CheckBox masterValidationCheckBox = new CheckBox("Master valdidation");
+    private CheckBox masterValidationCheckBox = new CheckBox("Master validation");
 
     private final FlowPane graphPane = new FlowPane();
     private final ScrollPane scrollPane = new ScrollPane();
 
     public ArrayList<StatisticGraph> graphs = new ArrayList<>();
 
-    private final int sceneWidth = 1550;
-    private final int sceneHeight = 1050;
-    private final int solutionGraphWidth = 800;
-    private final int solutionGraphHeight = 800;
-    private final int statisticGraphWidth = 1100;
-    private final int statisticGraphHeight = 800;
+    private final int sceneWidth = 1550/2;
+    private final int sceneHeight = 1050/2;
+    private final int solutionGraphWidth = 800/4;
+    private final int solutionGraphHeight = 800/4;
+    private final int statisticGraphWidth = 1100/4;
+    private final int statisticGraphHeight = 800/4;
 
     private HBox menu;
     private VBox menuWrapper;

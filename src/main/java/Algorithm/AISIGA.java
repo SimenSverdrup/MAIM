@@ -28,8 +28,8 @@ public class AISIGA extends Application {
     private AIS ais;
     private ArrayList<AIS> allAIS;
     private boolean radiusPlot = true;
-
     public int f = 0;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         gui = new GUI(primaryStage, this);
